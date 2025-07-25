@@ -48,6 +48,11 @@ header .profile-avatar {
   object-fit: cover;
   object-position: center;
 }
+@media (max-width: 767px) {
+  header {
+    margin-top: 24px;
+  }
+}
 .profile-bio {
   text-align: center;
 }
