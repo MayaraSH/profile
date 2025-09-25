@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Titillium Web', sans serif;
+  font-family: 'Work Sans', sans serif;
 }
 body {
   background-color: #182C61;
@@ -18,7 +18,7 @@ li {
   list-style: none;
 }
 .container {
-  max-width: 960px;
+  max-width: 560px;
   width: 100%;
   margin: 0 auto;
   min-height: 100vh;
@@ -57,15 +57,17 @@ header .profile-avatar {
   text-align: center;
 }
 .profile-bio-name {
-  font-size: 20px;
+  font-size: 24px;
   margin-bottom: 8px;
 }
 .profile-bio-subtitle {
   font-size: 14px;
   margin-bottom: 8px;
+  font-weight: lighter;
 }
 .profile-bio-description {
   font-size: 14px;
+  line-height: 1.6;
   opacity: 0.8;
 }
 .social-links {
@@ -88,11 +90,10 @@ header .profile-avatar {
   text-decoration: none;
   background-color: #6D214F;
   display: block;
-  padding: 16px 20px;
+  padding: 16px 16px;
   margin-bottom: 16px;
   text-align: center;
   color: #CAD3C8;
-  font-weight: bold;
   border-radius: 30px;
   border: 2px solid #6D214F;
   transition: all ease 0.5s;

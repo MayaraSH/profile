@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Titillium Web', sans serif  ;
+    font-family: 'Work Sans', sans serif;
 }
 
 body {
@@ -28,7 +28,7 @@ li {
 }
 
 .container {
-    max-width: 960px;
+    max-width: 560px;
     width: 100%;
     margin: 0 auto;
     min-height: 100vh;
@@ -68,17 +68,19 @@ header {
 text-align: center;
 
     &-name {
-        font-size: 20px;
+        font-size: 24px;
         .marginBotton8();
     }
 
     &-subtitle {
         .fonte14();
         margin-bottom: 8px;
+        font-weight: lighter;
     }
 
     &-description {
         .fonte14();
+        line-height: 1.6;
         opacity: .8;
     }
 }
@@ -108,11 +110,10 @@ text-align: center;
             text-decoration: none;
             background-color: #colors[buttonColor];
             display: block;
-            padding: 16px 20px;
+            padding: 16px 16px;
             margin-bottom: 16px;
             text-align: center;
             color: #colors[textColor];
-            font-weight: bold;
             border-radius: 30px;
             border: 2px solid #colors[buttonColor];
             transition: all ease .5s;
