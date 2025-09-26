@@ -62,14 +62,15 @@ header .profile-avatar {
   margin-bottom: 8px;
 }
 .profile-bio-subtitle {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 8px;
   font-weight: lighter;
+  line-height: 1.6;
 }
 .profile-bio-description {
   font-size: 14px;
   line-height: 1.6;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 .social-links {
   display: flex;
@@ -86,11 +87,13 @@ header .profile-avatar {
 }
 .project-list {
   margin-top: 32px;
+  text-align: center;
 }
 .project-list-item a {
   text-decoration: none;
   background-color: #6D214F;
   display: block;
+  line-height: 1.6;
   padding: 16px 16px;
   margin-bottom: 16px;
   text-align: center;
@@ -103,4 +106,9 @@ header .profile-avatar {
   border: 2px solid #CAD3C8;
   background-color: transparent;
   transform: scale(1.01);
+}
+.project-list-call {
+  font-size: 14px;
+  line-height: 1.6;
+  padding-bottom: 12px;
 }
