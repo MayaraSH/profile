@@ -21,6 +21,15 @@
 body {
     background-color: #colors[backgroundColor];
     color: #colors[textColor];
+    padding-top: 32px;
+
+    @media @breakpointMobile {
+        padding-top: 12px;
+    }
+    
+    @media @breakpointTablet {
+        padding-top: 24px;
+    }
 }
 
 li {
